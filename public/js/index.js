@@ -8,7 +8,7 @@ const createPost = async (name, email, comment, blogpostID) => {
         name,
         email,
         comment,
-        postID: 2
+        postID: blogpostID
       }
     });
     
