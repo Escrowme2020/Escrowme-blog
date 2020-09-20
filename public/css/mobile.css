@@ -65,6 +65,9 @@
 .logo {
   height: 2rem;
   margin: auto 0;
+  background: white;
+  border-radius: .5rem;
+  /*border: 1px solid black;*/
   /*display: grid;
   align-content: center;
   justify-content: center;
@@ -78,9 +81,13 @@
 }
 
 .es__logo {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 70%;
   z-index: 100;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin: -35% 0 0 -45%;
 }
 
 .header__menu {
@@ -204,6 +211,8 @@
   width: 80%;
   height: 3rem;
   margin: 2rem auto;
+  background: white;
+  border-radius: .5rem;
   /*background: white;
   display: grid;
   align-content: center;
@@ -264,7 +273,7 @@
   top: .5rem;
   left: .5rem;
   color: white;
-  background: var(--pri-color);
+  background: var(--pri-2-color);
   padding: .4rem;
   font-family: "Merriweather", "Serif";
   font-weight: 500;
